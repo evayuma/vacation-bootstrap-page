@@ -21,3 +21,16 @@
   z-index: 1;
   position: relative;
 }
+body {
+  font-family: 'Dancing Script', cursive;
+}
+h1 {
+  font-size: 80px;
+}
+.cover-heading ~ p {
+  font-size: 25px;
+}
+.btn {
+  font-family: "Century Gothic", sans-serif;
+  font-weight: normal;
+}
