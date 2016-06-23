@@ -6,7 +6,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
     <link href="css/cover.css" rel="stylesheet" media="screen">
-    <link href="css/my-styles.css" rel="stylesheet" media="screen">
+    <link href="css/my-styles2.css" rel="stylesheet" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
     <title>PLACES TO VISIT</title>
   </head>
@@ -14,46 +14,59 @@
   <body>
 
     <!--Carousel-->
+    <section class="block">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="container">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/podgorica.jpg">
+              <div class="carousel-caption">
+                <h3>Podgorica</h3>
+              </div>
+            </div>
 
-    <div id="myCarousel" class="carousel slide">
-      <div class="container">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
-        </ol>
+            <div class="item">
+              <img src="img/kotor.jpg">
+              <div class="carousel-caption">
+                <h3>Kotor</h3>
+              </div>
+            </div>
 
-        <div class="carousel-inner">
-          <div class="item active">
-            <img src="img/podgorica.jpg">
+            <div class="item">
+              <img src="img/budva.jpg">
+              <div class="carousel-caption">
+                <h3>Budva</h3>
+              </div>
+            </div>
+
+            <div class="item">
+              <img src="img/biograd.jpg">
+              <div class="carousel-caption">
+                <h3>Biogradska Gora</h3>
+              </div>
+            </div>
+
           </div>
-
-          <div class="item">
-            <img src="img/kotor.jpg">
-          </div>
-
-          <div class="item">
-            <img src="img/budva.jpg">
-          </div>
-
-          <div class="item">
-            <img src="img/biograd.jpg">
-          </div>
-
         </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
       </div>
-
-
-    </div>
-
+    </section>
     <!--End-Carousel-->
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 
 </html>
