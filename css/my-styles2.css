@@ -5,6 +5,7 @@ body {
 h3, h3 a {
   font-size: 70px;
   color: #00FFFF;
+  text-shadow: 1px 2px 1px yellow;
 }
 
 .carousel .item {

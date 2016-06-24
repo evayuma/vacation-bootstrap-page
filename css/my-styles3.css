@@ -14,7 +14,7 @@ h1, h2 {
 }
 h1 {
   font-size: 80px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 2px 1px yellow;
   margin-bottom: 30px;
 }
 p {
