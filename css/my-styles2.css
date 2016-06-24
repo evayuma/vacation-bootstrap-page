@@ -2,7 +2,7 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
-h3 {
+h3, h3 a {
   font-size: 70px;
   color: #00FFFF;
 }
